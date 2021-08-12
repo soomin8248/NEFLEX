@@ -6,7 +6,7 @@
       rgba(0, 0, 0, 0) 0%,
       rgba(0, 0, 0, 1) 100%
     ),
-    url("https://cdn.hipwallpaper.com/i/98/21/dUyCkp.jpg");
+    url("https://assets.nflxext.com/ffe/siteui/vlv3/9c5457b8-9ab0-4a04-9fc1-e608d5670f1a/ddf5c58a-29d5-43a7-9bb4-a125630681dd/KR-ko-20210719-popsignuptwoweeks-perspective_alpha_website_small.jpg");
   background-size: cover;
   position: relative;
 
@@ -20,17 +20,22 @@
       .logo {
         height: 40px;
       }
-
-      .loginButton {
-        background-color: red;
-        border: none;
-        color: white;
-        border-radius: 5px;
-        padding: 5px 15px;
-        font-size: 16px;
-        font-weight: 500;
-        cursor: pointer;
+      
+      a { 
+        z-index: 9999;
+        .loginButton {
+          background-color: red;
+          border: none;
+          color: white;
+          border-radius: 5px;
+          padding: 5px 15px;
+          font-size: 16px;
+          font-weight: 500;
+          cursor: pointer;
+        }
       }
+
+      
     }
   }
 
